@@ -1,0 +1,45 @@
+<html> 
+<head> 
+
+<link href="style.css" rel="stylesheet" type="text/stylesheet" />
+<link href="deactivate.css" rel="stylesheet" type="text/stylesheet" />
+<script type="text/javascript" src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"> </script>
+<script type="text/javascript" src="deactivate.js"> </script>
+<script>
+$(document).ready(function(){
+	$(".c-one").deactivate();
+	$(".c-four").deactivate();
+});
+</script> 
+</head> 
+<body>
+<div class="row">
+	<div class="content-area c-one">
+		<p> some text </p>
+		<form> 
+			<input type="submit" />
+		</form>
+	</div>
+	<div class="content-area c-two">
+		<p> some text </p>
+		<form> 
+			<input type="submit" />
+		</form>
+	</div>
+</div>
+<div class="row">
+	<div class="content-area c-three">
+		<p> some text </p>
+		<form> 
+			<input type="submit" />
+		</form>
+	</div>
+	<div class="content-area c-four">
+		<p> some text </p>
+		<form> 
+			<input type="submit" />
+		</form>
+	</div>
+</div>
+</body>
+</html>

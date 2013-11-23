@@ -1,0 +1,6 @@
+.inactive-layer{
+    opacity: .4;
+    background-color: white;
+    position: relative;
+    position: absolute;
+}

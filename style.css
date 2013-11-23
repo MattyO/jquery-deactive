@@ -1,0 +1,27 @@
+.content-area{
+	height: 400px;
+	width: 400px;
+	float:left;
+}
+
+.c-one{
+	color:black;
+	background-color: red;
+}
+.c-two{
+	background-color: red;
+}
+.c-three{
+	background-color: blue;
+}
+.c-four{
+	background-color: blue;
+}
+
+.clear{
+	clear:both;
+}
+.row{
+	width: 900px;
+}
+
