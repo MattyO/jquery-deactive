@@ -1,20 +1,18 @@
 <html> 
 <head> 
 
-<link href="style.css" rel="stylesheet" type="text/stylesheet" />
-<link href="deactivate.css" rel="stylesheet" type="text/stylesheet" />
+<link href="css/style.css" rel="stylesheet" type="text/stylesheet" />
 <script type="text/javascript" src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"> </script>
-<script type="text/javascript" src="deactivate.js"> </script>
+<script type="text/javascript" src="js/deactivate.js"> </script>
 <script>
 $(document).ready(function(){
-	$(".c-one").deactivate();
-	$(".c-four").deactivate();
+	$(".incomplete").deactivate();
 });
 </script> 
 </head> 
 <body>
 <div class="row">
-	<div class="content-area c-one">
+	<div class="content-area c-one incomplete">
 		<p> some text </p>
 		<form> 
 			<input type="submit" />
@@ -34,7 +32,7 @@ $(document).ready(function(){
 			<input type="submit" />
 		</form>
 	</div>
-	<div class="content-area c-four">
+	<div class="content-area c-four incomplete">
 		<p> some text </p>
 		<form> 
 			<input type="submit" />
